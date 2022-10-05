@@ -1,0 +1,16 @@
+["protostar.config"]
+protostar_version = "0.4.2"
+
+["protostar.project"]
+libs_path = "lib"
+
+["protostar.contracts"]
+main = [
+    "src/main.cairo",
+]
+
+erc20 = [
+    "src/ERC20.cairo",
+]
+
+# protostar deploy ./build/erc20.json --network testnet -i 1539465867904923300453 289397109359 18 10000 0 0x00A596deDe49d268d6aD089B56CC76598af3E949183a8ed10aBdE924de191e48
